@@ -1,15 +1,110 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+</head>
+
+<body>
+    <!-- Este contenedor sera el padre de todos mis elementos -->
+    <div class="container">
+
+        <!-- El header representa mi barra superior en mi pagina -->
+        <Header>
+
+
+            <!-- Mi etiqueta nav respresenta mi menu de navegacion -->
+            <nav class="menu">
+
+                <img src="../img/logo.png" class="logo" alt="EnigmaTrad">
+                <a class="element" href="#">Inicio</a>
+                <a class="element" href="#">Cifher Mensaje</a>
+                <a class="element" href="#">About</a>
+
+            </nav>
+
+
+        </Header>
+
+        <!-- primera pantalla -->
+        <section id="container-main">
+            <section class="subcontainer-main" class="container-maintwostyle">
+                <h1 class="mainelement element1">Lenguaje extraterrestre </h1>
+                <p class="mainelement element2">
+                    No estamos solos, Nunca lo hemos estado!! Comunicate con seres de otro planeta, a traves de un lenguaje especial.
+
+                </p>
+                <h2 class="mainelement"><strong> Conoce y Aprende la cultura de otros planetas</strong></h2>
+                <h2>Vamos Comunicate!!</h2>
+                <!-- Este boton me va a llamar a la siguiente pantalla-->
+                <button class="btnInit element3" id="btnEncryptScreen" type="button">Criptar Mensaje</button>
+                <button class=" btnInit element3 " id="btnDecryptScreen" type="button ">Descriptar Mensaje</button>
+            </section>
+        </section>
+
+        <!-- Segunda Pantalla -->
+        <section id="container-maintwo" class="container-maintwostyle ">
+            <section id="subcontainer-maintwo " class="subcontainer-maintwostyle ">
+
+                <strong><h1>Escribe tu Mensaje </h1></strong>
+                <div class="decorador">
+                    <input id="position" type="number ">Introduce un numero</input>
+                </div>
+
+                <textarea id="msjcipher" rows="14 " cols="50 "></textarea>
+
+                <!-- Boton para cifrar y volver    -->
+                <button type="button " id="btnencrypt" class="btnMsj ">Cifrar msj</button>
+                <button type="button " id="btnvolver" class="btnvolver ">Volver</button>
+
+                <!-- bloque de mensaje traducido (la otra mitad de mi pantalla) -->
+                <section class="subcontainer-maintwo ">
+                    <strong> <h1> Traducion del mensaje </h1></strong>
+
+                    <textarea id="msjdecipher" rows="14 " cols="50 ">
+                        
+                    </textarea >           
+              </section>
+            </section>
+            
+        </section>
+
+          <!-- Tercera pantalla -->
+          <section id="container-mainthree" class="container-maintwostyle ">
+            <section id="subcontainer-mainthree " class="subcontainer-maintwostyle ">
+
+                <strong><h1>Escribe tu Mensaje </h1></strong>
+                <div class="decorador">
+                    <input id="offsett" type="number ">Introduce un numero</input>
+                </div>
+
+                <textarea id="msjedecipher" rows="14 " cols="50 "></textarea>
+
+                    <!-- Boton para cifrar y volver    -->
+                    <button type="button " id="btndecrypt" class=" ">Descifrar msj</button>
+                    <button type="button " id="btnvolver" class="btnvolver ">Volver</button>
+
+                    <!-- bloque de mensaje traducido (la otra mitad de mi pantalla) -->
+                    <section class="subcontainer-maintwo ">
+                        <strong> <h1> Traducion del mensaje </h1></strong>
+
+                        <textarea id="msjcipherr" rows="14 " cols="50 ">
+                        
+                    </textarea >           
+              </section>
+            </section>
+            
+        </section>
+
+
+        <footer>
+          © Copyright 2019 Crusiris Nuñez - Todos los Derechos Reservados
+         </footer>
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+    <script src="cipher.js "></script>
+    <script src="index.js "></script>
+</body>
+
 </html>
