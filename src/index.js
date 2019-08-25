@@ -15,10 +15,8 @@ document.getElementById("btnDecryptScreen").addEventListener("click", () => {
 
 document.getElementById("btnencrypt").addEventListener("click", () => {
     let offset = parseInt(document.getElementById("position").value);
-    console.log(offset);
     let mensaje = document.getElementById("msjcipher").value.toUpperCase();
-    console.log(mensaje);
-    // document.getElementById("container-maintwo").style.display = "block";
+
 
     let msjtrad = cipher.encode(offset, mensaje);
     document.getElementById("msjdecipher").innerHTML = msjtrad;
@@ -32,7 +30,7 @@ document.getElementById("btndecrypt").addEventListener("click", () => {
 
     //asigno a una variable el valor el return de la funcion
     let msjtraduc = cipher.decode(offsett, mensajee);
-    console.log(msjtraduc);
+
     //imprimo en pantalla el resultado de mi funcion
     document.getElementById("msjcipherr").innerHTML = msjtraduc;
 })
