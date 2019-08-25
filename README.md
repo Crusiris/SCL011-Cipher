@@ -30,19 +30,19 @@ En la actualidad, todos los cifrados de sustitución simple se descifran con muc
 
 ## Para iniciarlo:
 
-# clonen el proyecto:
+## clonen el proyecto:
 git clone https://github.com/Crusiris/SCL011-Cipher.git
 
-# Navegar a la carpeta que se creo
+## Navegar a la carpeta que se creo
 cd SCL011-Cipher
 
-# Ejecutar npm install dentro de SCL011-Cipher
+## Ejecutar npm install dentro de SCL011-Cipher
 npm install
 
-# abrir el archivo index.html en el navegador
+## Visualizar la aplicacion web
+abrir el archivo index.html en el navegador
 
-
-## Objetivos de aprendizaje
+# Objetivos de aprendizaje
 
  Mediante la creacion de este proyecto se aprendio a construir una aplicaciónes web que interactúe con el usuario a través del navegador y la lógica basada en esa interacción. Dicho en palabras sencillas, :
 
