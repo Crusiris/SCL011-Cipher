@@ -98,6 +98,11 @@ footer {
     font-size: 16px
 }
 
+.btnMsj:hover {
+    background-color: black;
+    color: white;
+}
+
 
 /* imput */
 
