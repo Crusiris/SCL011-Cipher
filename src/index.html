@@ -19,9 +19,6 @@
             <nav class="menu">
 
                 <img src="../img/logo.png" class="logo" alt="EnigmaTrad">
-                <a class="element" href="#">Inicio</a>
-                <a class="element" href="#">Cifher Mensaje</a>
-                <a class="element" href="#">About</a>
 
             </nav>
 
@@ -29,12 +26,11 @@
         </header>
 
         <!-- primera pantalla -->
-        <section id="container-main">
+        <section id="container-main" class="container">
             <section id="subcontainer-main" class="container-maintwostyle">
                 <h1 class="mainelement element1">Lenguaje extraterrestre </h1>
                 <p class="mainelement element2">
                     No estamos solos, Nunca lo hemos estado!! Comunicate con seres de otro planeta, a traves de un lenguaje especial.
-
                 </p>
                 <h2 class="mainelement"><strong> Conoce y Aprende la cultura de otros planetas</strong></h2>
                 <h2>Vamos Comunicate!!</h2>
@@ -45,30 +41,31 @@
         </section>
 
         <!-- Segunda Pantalla -->
-        <section id="container-maintwo" class="container-maintwostyle ">
-            <section id="subcontainer-maintwo " class="subcontainer-maintwostyle ">
+        <section id="container-maintwo" class="continerSection2">
+            <section id="subcontainer-maintwo" class="containerCifrar">
 
                 <strong><h1>Escribe tu Mensaje </h1></strong>
-                <div class="decorador">
-                    <input id="position" type="number ">Introduce un numero
+                <div class="inputt">
+                    <input id="position" placeholder="Introduce un numero" type="number">
                 </div>
 
-                <textarea id="msjcipher" rows="14 " cols="50 "></textarea>
+                <textarea id="msjcipher" class="textArea"></textarea>
 
                 <!-- Boton para cifrar y volver    -->
                 <button type="button " id="btnencrypt" class="btnMsj ">Cifrar msj</button>
-                <button type="button " id="btnvolver" class="btnvolver ">Volver</button>
 
-                <!-- bloque de mensaje traducido (la otra mitad de mi pantalla) -->
-                <section class="subcontainer-maintwo ">
-                    <strong> <h1> Traducion del mensaje </h1></strong>
+            </section>
 
-                    <textarea id="msjdecipher" rows="14 " cols="50 ">
+            <!-- bloque de mensaje traducido (la otra mitad de mi pantalla) -->
+            <section class="resultado">
+                <strong> <h1> Traducion del mensaje </h1></strong>
+
+                <textarea id="msjdecipher" class="textArea">
                         
                     </textarea >           
               </section>
-            </section>
-            
+
+
         </section>
 
           <!-- Tercera pantalla -->
@@ -76,26 +73,25 @@
             <section id="subcontainer-mainthree " class="subcontainer-maintwostyle ">
 
                 <strong><h1>Escribe tu Mensaje </h1></strong>
-                <div class="decorador">
-                    <input id="offsett" type="number ">Introduce un numero
-                </div>
-
+                
+                <input id="offsett" type="number ">Introduce un numero
+                
                 <textarea id="msjedecipher" rows="14 " cols="50 "></textarea>
 
-                    <!-- Boton para cifrar y volver    -->
-                    <button type="button " id="btndecrypt" class=" ">Descifrar msj</button>
-                    <button type="button " id="btnvolverr" class="btnvolver ">Volver</button>
+                <!-- Boton para cifrar y volver    -->
+                <button type="button " id="btndecrypt" class=" ">Descifrar msj</button>
 
-                    <!-- bloque de mensaje traducido (la otra mitad de mi pantalla) -->
-                    <section class="subcontainer-maintwo ">
-                        <strong> <h1> Traducion del mensaje </h1></strong>
 
-                        <textarea id="msjcipherr" rows="14 " cols="50 ">
-                        
-                    </textarea >           
-              </section>
+
             </section>
-            
+            <!-- bloque de mensaje traducido (la otra mitad de mi pantalla) -->
+            <section class="subcontainer-maintwo ">
+                <strong> <h1> Traducion del mensaje </h1></strong>
+
+                <textarea id="msjcipherr" rows="14 " cols="50 ">
+                    
+                </textarea >           
+          </section>
         </section>
 
 

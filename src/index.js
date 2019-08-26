@@ -2,11 +2,11 @@
 
 document.getElementById("btnEncryptScreen").addEventListener("click", () => {
     document.getElementById("container-main").innerHTML = " ";
-    document.getElementById("container-maintwo").style.display = "block";
+    document.getElementById("container-maintwo").style.display = "flex";
 });
 
 document.getElementById("btnDecryptScreen").addEventListener("click", () => {
-    document.getElementById("container-main").innerHTML = " ";
+    document.getElementById("container-main").style.display = "none";
     document.getElementById("container-mainthree").style.display = "block";
 
 });
@@ -33,4 +33,4 @@ document.getElementById("btndecrypt").addEventListener("click", () => {
 
     //imprimo en pantalla el resultado de mi funcion
     document.getElementById("msjcipherr").innerHTML = msjtraduc;
-})
+});
