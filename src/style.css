@@ -56,12 +56,15 @@ footer {
 .continerSection2 {
     background-color: rgba(250, 239, 60, 0.2);
     display: flex;
+    /* Para establecer que los bloques hijos se alinien en fila dentro del bloque padre*/
     flex-direction: row;
+    /* para distribuir lo bloque con el mismo espacio entre ellos */
     justify-content: space-around;
 }
 
 .containerCifrar {
     display: flex;
+    /* Para establecer que los bloques hijos se alinien en columna dentro del elemento padre*/
     flex-direction: column;
 }
 
@@ -108,11 +111,14 @@ footer {
 /* ------------------------------------- */
 
 
-/* Ocultando la segunda pantalla */
+/* Ocultando la primera pantalla */
 
 #container-main {
     display: block;
 }
+
+
+/*Ocultando segunda pantalla*/
 
 #container-maintwo {
     display: none;
