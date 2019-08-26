@@ -21,6 +21,9 @@ header {
 
 /* Contenido principal */
 
+
+/* Primera pantalla */
+
 .container-maintwostyle {
     width: 480px;
     height: 410px;
@@ -29,15 +32,6 @@ header {
     padding: 40px;
     text-align: center;
     background-color: rgba(250, 239, 60, 0.7);
-}
-
-.container-maintwostylee {
-    width: 90%;
-    height: 410px;
-    display: inline;
-    margin: auto;
-    margin-top: 2em;
-    background-color: rgba(250, 239, 60, 0.3);
 }
 
 
@@ -55,6 +49,9 @@ footer {
 
 
 /* ------------------------------------- */
+
+
+/* Segunda pantalla */
 
 .continerSection2 {
     background-color: pink;
