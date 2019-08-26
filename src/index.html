@@ -35,8 +35,8 @@
                 <h2 class="mainelement"><strong> Conoce y Aprende la cultura de otros planetas</strong></h2>
                 <h2>Vamos Comunicate!!</h2>
                 <!-- Este boton me va a llamar a la siguiente pantalla-->
-                <button class="btnInit element3" id="btnEncryptScreen" type="button">Criptar Mensaje</button>
-                <button class=" btnInit element3 " id="btnDecryptScreen" type="button ">Descriptar Mensaje</button>
+                <button class="btnMsj" id="btnEncryptScreen" type="button">Criptar Mensaje</button>
+                <button class="btnMsj" id="btnDecryptScreen" type="button ">Descriptar Mensaje</button>
             </section>
         </section>
 
@@ -45,52 +45,50 @@
             <section id="subcontainer-maintwo" class="containerCifrar">
 
                 <strong><h1>Escribe tu Mensaje </h1></strong>
-                <div class="inputt">
+                <div class="imputt">
                     <input id="position" placeholder="Introduce un numero" type="number">
                 </div>
 
                 <textarea id="msjcipher" class="textArea"></textarea>
 
                 <!-- Boton para cifrar y volver    -->
-                <button type="button " id="btnencrypt" class="btnMsj ">Cifrar msj</button>
+                <button type="button " id="btnencrypt" class="btnMsj">Cifrar msj</button>
 
             </section>
 
             <!-- bloque de mensaje traducido (la otra mitad de mi pantalla) -->
             <section class="resultado">
-                <strong> <h1> Traducion del mensaje </h1></strong>
+                <h1 class="titulo"><strong> Traducion del mensaje </strong></h1>
 
-                <textarea id="msjdecipher" class="textArea">
-                        
-                    </textarea >           
+                <textarea id="msjdecipher" class="textArea"></textarea >  
+                    <button type="button " id="btnvolver" class="btnMsj">Volver</button>         
               </section>
 
 
         </section>
 
           <!-- Tercera pantalla -->
-          <section id="container-mainthree" class="container-maintwostyle ">
-            <section id="subcontainer-mainthree " class="subcontainer-maintwostyle ">
+          <section id="container-mainthree" class="continerSection2">
+            <section id="subcontainer-mainthree " class="containerCifrar">
 
                 <strong><h1>Escribe tu Mensaje </h1></strong>
-                
-                <input id="offsett" type="number ">Introduce un numero
-                
-                <textarea id="msjedecipher" rows="14 " cols="50 "></textarea>
+                <div class="imputt">
+                   <input  placeholder="Introduce un numero"  id="offsett" type="number ">
+                </div>
+                <textarea id="msjedecipher" class="textArea"></textarea>
 
                 <!-- Boton para cifrar y volver    -->
-                <button type="button " id="btndecrypt" class=" ">Descifrar msj</button>
+                <button type="button " id="btndecrypt" class="btnMsj">Descifrar msj</button>
 
 
 
             </section>
             <!-- bloque de mensaje traducido (la otra mitad de mi pantalla) -->
-            <section class="subcontainer-maintwo ">
-                <strong> <h1> Traducion del mensaje </h1></strong>
+            <section class="resultado">
+                <strong> <h1 class="titulo"> Traducion del mensaje </h1></strong>
 
-                <textarea id="msjcipherr" rows="14 " cols="50 ">
-                    
-                </textarea >           
+                <textarea id="msjcipherr" class="textArea"></textarea >  
+                    <button type="button " id="btnvolverr" class="btnMsj">Volver</button>         
           </section>
         </section>
 

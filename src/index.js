@@ -7,9 +7,20 @@ document.getElementById("btnEncryptScreen").addEventListener("click", () => {
 
 document.getElementById("btnDecryptScreen").addEventListener("click", () => {
     document.getElementById("container-main").style.display = "none";
-    document.getElementById("container-mainthree").style.display = "block";
+    document.getElementById("container-mainthree").style.display = "flex";
 
 });
+
+//Boton volver cifrar
+document.getElementById("btnvolver").addEventListener("click", () => {
+    window.location.href = "index.html";
+})
+
+//Boton volver descifrar
+document.getElementById("btnvolverr").addEventListener("click", () => {
+    window.location.href = "index.html";
+})
+
 
 //Boton de cifrado (obtengo el valor y mando la informacion al cipher.js) (funncion btncipher)
 
